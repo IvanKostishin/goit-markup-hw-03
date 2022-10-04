@@ -4,18 +4,26 @@
   --secondary-logo-color: #000000;
   --prime-text-color: #757575;
   --secondary-text-color: #212121;
-  --hero-section-color: #2F303A;
+  --hero-section-color: #2f303a;
+  --button-color: #188ce8;
+  --secondary-background-color: #F5F4FA;
+  --address-color: color: rgba(255, 255, 255, 0.6);
 }
 
 /* body */
 body {
+  color: var(--prime-text-color);
   background-color: var(--prime-background-color);
   font-family: 'Roboto', sans-serif;
   font-size: 14px;
 }
 
 .title {
-    
+  color: var(--secondary-text-color);
+  font-size: 36px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-align: center;
 }
 
 /* header-section */
@@ -37,22 +45,155 @@ body {
 }
 
 .links {
-    color: var(--prime-text-color);
+  color: var(--prime-text-color);
   font-weight: 500;
   line-height: 1.14;
   letter-spacing: 0.02em;
   font-style: normal;
+  text-decoration: none;
 }
 
-.links:hover, .links:focus {
-    color: var(--prime-logo-color);
+.links:hover,
+.links:focus {
+  color: var(--prime-logo-color);
 }
 
 nav .links {
-    color: var(--secondary-text-color);
+  color: var(--secondary-text-color);
 }
 
 /* hero-section */
 .hero-section {
-    background-color: var(--hero-section-color);
+  background-color: var(--hero-section-color);
 }
+
+.hero-section .title {
+  color: var(--prime-background-color);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.button {
+  font-style: normal;
+  font-family: inherit;
+  color: var(--prime-background-color);
+  background-color: var(--prime-logo-color);
+  font-size: 16px;
+  line-height: 1.88;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+}
+
+.button:hover,
+.button:focus {
+  background-color: var(--button-color);
+}
+
+/* section-company benefits */
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
+
+.title-secondary { color: var(--secondary-text-color);
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.paragraph {
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+
+/* section-our-team */
+.section-our-team {
+  background-color: var(--secondary-background-color);
+}
+
+.section-our-team .list-team {
+  background-color: var(--prime-background-color);
+}
+
+.section-our-team .title {
+  font-weight: 500;
+  font-size: 16px;
+line-height: 1.9;
+}
+
+.job-title {
+font-size: 16px;
+line-height: 1.9;
+text-align: center;
+}
+
+/* footer */
+.footer {
+  background-color: var(--hero-section-color);
+}
+ .footer .logo-secondary {
+  color: var(--prime-background-color);
+ }
+
+ .address-links {
+  color: var(--prime-background-color);
+  font-style: normal;
+  line-height: 1.71;
+letter-spacing: 0.03em;
+ }
+
+ .address-secondary {
+  color: var(--address-color);
+ }
+
+ .address-links:hover, .address-links:focus {
+  color: var(--prime-logo-color);
+ }
+
+ /* portfolio */
+
+ .portfolio-button {
+  color: var(--secondary-text-color);
+  background-color: var(--secondary-background-color);
+  font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.62;
+text-align: center;
+letter-spacing: 0.03em;
+ }
+
+ .portfolio-button:hover,  .portfolio-button:focus {
+  color: var(--prime-background-color);
+  background-color: var(--prime-logo-color);
+ }
+
+ .portfolio-title {
+  color: var(--secondary-text-color);
+  font-size: 18px;
+line-height: 2;
+letter-spacing: 0.06em;
+ }
+
+ .portfolio-paragraph {
+  color: var(--prime-text-color);
+font-style: normal;
+font-size: 16px;
+line-height: 1.88;
+letter-spacing: 0.03em;
+ }
