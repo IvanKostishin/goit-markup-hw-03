@@ -1,34 +1,58 @@
 :root {
-    --prime-background-color: #FFFFFF;
-   --pime-logo-color: #2196F3;
-   --secondary-logo-color: #000000;
+  --prime-background-color: #ffffff;
+  --prime-logo-color: #2196f3;
+  --secondary-logo-color: #000000;
+  --prime-text-color: #757575;
+  --secondary-text-color: #212121;
+  --hero-section-color: #2F303A;
 }
 
 /* body */
 body {
-    background-color: var(--prime-background-color);
-    font-family: 'Roboto', sans-serif;
-    font-size: 14px;
+  background-color: var(--prime-background-color);
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
 }
+
+.title {
+    
+}
+
+/* header-section */
 .list {
-    list-style: none;
+  list-style: none;
 }
 
 .logo-prime {
-font-family: 'Raleway', sans-serif;
-font-weight: 700;
-font-size: 26px;
-line-height:1.19;
-letter-spacing: 0.03em;
-color: var(--pime-logo-color);
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--prime-logo-color);
 }
+
 .logo-secondary {
-color: var(--secondary-logo-color);
+  color: var(--secondary-logo-color);
 }
 
 .links {
-font-weight: 500;
-line-height: 1.14;
-letter-spacing: 0.02em;
-font-style: normal;
+    color: var(--prime-text-color);
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  font-style: normal;
+}
+
+.links:hover, .links:focus {
+    color: var(--prime-logo-color);
+}
+
+nav .links {
+    color: var(--secondary-text-color);
+}
+
+/* hero-section */
+.hero-section {
+    background-color: var(--hero-section-color);
 }
