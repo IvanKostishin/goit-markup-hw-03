@@ -10,6 +10,34 @@
   --address-color: color: rgba(255, 255, 255, 0.6);
 }
 
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+h1, h2, h3, p, ul {
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  width: 1230px;
+  padding-left: 15px;
+  padding-right: 15px;
+} 
+
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+header ul,header nav, header .container {
+display: flex;
+}
 /* body */
 body {
   color: var(--prime-text-color);
@@ -39,6 +67,7 @@ body {
   letter-spacing: 0.03em;
   color: var(--prime-logo-color);
   text-decoration: none;
+  margin-right: 93px;
 }
 
 .logo-secondary {
@@ -61,7 +90,10 @@ body {
 
 nav .links {
   color: var(--secondary-text-color);
+  margin-right: 50px;
 }
+
+
 
 nav .current {
   color: var(--prime-logo-color);
