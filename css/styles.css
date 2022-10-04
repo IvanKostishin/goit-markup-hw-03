@@ -38,7 +38,7 @@ body {
   line-height: 1.19;
   letter-spacing: 0.03em;
   color: var(--prime-logo-color);
-   text-decoration: none;
+  text-decoration: none;
 }
 
 .logo-secondary {
@@ -64,7 +64,7 @@ nav .links {
 }
 
 nav .current {
-color: var(--prime-logo-color);
+  color: var(--prime-logo-color);
 }
 /* hero-section */
 .hero-section {
@@ -137,13 +137,13 @@ color: var(--prime-logo-color);
 .section-our-team .title {
   font-weight: 500;
   font-size: 16px;
-line-height: 1.9;
+  line-height: 1.9;
 }
 
 .job-title {
-font-size: 16px;
-line-height: 1.9;
-text-align: center;
+  font-size: 16px;
+  line-height: 1.9;
+  text-align: center;
 }
 
 /* footer */
@@ -158,8 +158,8 @@ text-align: center;
   color: var(--prime-background-color);
   font-style: normal;
   line-height: 1.71;
-letter-spacing: 0.03em;
- text-decoration: none;
+  letter-spacing: 0.03em;
+  text-decoration: none;
  }
 
  .address-secondary {
@@ -177,12 +177,12 @@ letter-spacing: 0.03em;
   color: var(--secondary-text-color);
   background-color: var(--secondary-background-color);
   font-family: 'Roboto';
-font-style: normal;
-font-weight: 500;
-font-size: 16px;
-line-height: 1.62;
-text-align: center;
-letter-spacing: 0.03em;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
  }
 
  .portfolio-button:hover,  .portfolio-button:focus {
@@ -197,14 +197,14 @@ letter-spacing: 0.03em;
  .portfolio-title {
   color: var(--secondary-text-color);
   font-size: 18px;
-line-height: 2;
-letter-spacing: 0.06em;
+  line-height: 2;
+  letter-spacing: 0.06em;
  }
 
  .portfolio-paragraph {
   color: var(--prime-text-color);
-font-style: normal;
-font-size: 16px;
-line-height: 1.88;
-letter-spacing: 0.03em;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.03em;
  }
