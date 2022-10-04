@@ -63,6 +63,9 @@ nav .links {
   color: var(--secondary-text-color);
 }
 
+.current {
+color: var(--prime-logo-color);
+}
 /* hero-section */
 .hero-section {
   background-color: var(--hero-section-color);
