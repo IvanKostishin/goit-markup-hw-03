@@ -339,4 +339,21 @@ margin-left: 215px;
 
  .portfolio-list-img {
   display: flex;
+  flex-wrap: wrap;
+  margin-top: 50px;
+  margin-left: 215px;
+ }
+
+ .portfolio-list-img li:not(:first-child) {
+  margin-left: 30px;
+ }
+
+ .portfolio-list-img h2 {
+  margin-top: 20px;
+  margin-left: 24px;
+ }
+
+ .portfolio-list-img p {
+  margin-top: 4px;
+  margin-left: 24px;
  }
