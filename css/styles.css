@@ -95,7 +95,7 @@ img {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-   padding: 32px 0;
+  padding: 32px 0;
 }
 
 .nav-section .anhor:hover,
@@ -110,7 +110,9 @@ img {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+  padding: 32px 0;
 }
+
 
 .nav-section .adress:hover,
 .nav-section .adress:focus {
@@ -129,6 +131,7 @@ img {
 .header-container {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .heder-logo {
@@ -151,8 +154,6 @@ img {
   display: flex;
   gap: 50px;
 }
-
-
 
 /* hero sectsion */
 .hero-section {
