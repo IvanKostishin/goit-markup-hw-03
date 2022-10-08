@@ -95,6 +95,7 @@ img {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+   padding: 32px 0;
 }
 
 .nav-section .anhor:hover,
@@ -151,9 +152,7 @@ img {
   gap: 50px;
 }
 
-.header-nav-item {
-  padding: 32px 0;
-}
+
 
 /* hero sectsion */
 .hero-section {
