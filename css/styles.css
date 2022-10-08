@@ -10,7 +10,7 @@
   --bg-color: #2196f3;
   --activ-bg-color: #188ce8;
   --border-header-color: #ececec;
-  --border-color: #EEEEEE;
+  --border-color: #eeeeee;
   --secondary-adress: rgba(255, 255, 255, 0.6);
 }
 
@@ -287,6 +287,9 @@ img {
 
 .team-section-item {
   padding: 30px;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
 }
 
 /* footer */
@@ -318,6 +321,7 @@ img {
 
 .adress-link {
   color: var(--nav-background-color);
+  font-style: normal;
 }
 
 .secondary-adress:hover,
@@ -356,14 +360,14 @@ img {
 .porfolio-anhor {
   font-style: normal;
 }
-.porfolio-anhor  .title {
+.porfolio-anhor .title {
   color: var(--secondary-text-color);
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
 }
 
-.porfolio-anhor  .paragraf {
+.porfolio-anhor .paragraf {
   color: var(--prime-text-color);
   font-size: 16px;
   line-height: 1.88;
@@ -400,5 +404,4 @@ img {
   border-bottom: 1px solid var(--border-color);
   border-left: 1px solid var(--border-color);
   border-right: 1px solid var(--border-color);
-
 }
