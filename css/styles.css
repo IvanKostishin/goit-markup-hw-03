@@ -59,14 +59,14 @@ img {
 }
 
 .container {
-  max-width: 1230px;
+  max-width: 1200px;
   padding: 0 15px;
   margin: 0 auto;
 }
 
 .section {
-  width: 1600px;
   padding-top: 94px;
+  padding-bottom: 94px;
   margin: 0 auto;
 }
 
@@ -96,6 +96,7 @@ img {
   line-height: 1.14;
   letter-spacing: 0.02em;
   padding: 32px 0;
+  display: block;
 }
 
 .nav-section .anhor:hover,
@@ -111,8 +112,8 @@ img {
   line-height: 1.14;
   letter-spacing: 0.02em;
   padding: 32px 0;
+  display: flex;
 }
-
 
 .nav-section .adress:hover,
 .nav-section .adress:focus {
@@ -159,12 +160,11 @@ img {
 .hero-section {
   background-color: var(--hero-color);
   width: 1600px;
+  padding: 200px 15px;
   margin: 0 auto;
 }
 
 .hero-section-container {
-  width: 1230px;
-  padding: 200px 15px;
   margin: 0 auto;
 }
 
@@ -189,6 +189,7 @@ img {
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
+  border: none;
   display: block;
   letter-spacing: 0.06em;
   padding: 10px 32px;
@@ -242,7 +243,9 @@ img {
 }
 
 .tasks-section {
+ width: 1600px;
   padding-bottom: 94px;
+  margin: 0 auto;
 }
 
 .tasks-section-list {
@@ -300,8 +303,8 @@ img {
 }
 
 .footer-container {
-  width: 1230px;
-  padding: 15px 0;
+  width: 1200px;
+  padding: 0 15px;
   margin: 0 auto;
 }
 
@@ -381,7 +384,6 @@ img {
 }
 
 .porfolio-section {
-  width: 1600px;
   padding-top: 94px;
   padding-bottom: 94px;
   margin: 0 auto;
